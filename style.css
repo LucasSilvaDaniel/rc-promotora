@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+}
+
+main {
+    background-color: red;
+    border-radius: 10px;/*Borda da main arredondada*/
+    min-width: 280px;/*tamanho minimo*/
+    max-width: 100%;/*tamanho maximo*/
+}
+
+img {
+    width: 20%;
+    margin: 2%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #332C89;
+}
+
+p {
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem; /* Tamanho de fonte responsivo */
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 1rem; /* Reduz o tamanho da fonte para telas menores */
+        padding: 10px; /* Ajusta o espaçamento para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 0.9rem; /* Tamanho ainda menor para telas muito pequenas */
+        padding: 5px; /* Ajuste adicional no padding */
+    }
+}
