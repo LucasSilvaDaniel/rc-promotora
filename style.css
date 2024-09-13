@@ -30,12 +30,12 @@ p {
 
 @media (max-width: 768px) {
     img {
-        width: 15%; /* Reduz o tamanho da imagem para telas menores */
+        width: 30%; /* Reduz o tamanho da imagem para telas menores */
     }
 
     p {
         font-size: 1rem; /* Reduz o tamanho da fonte para telas menores */
-        padding: 10px; /* Ajusta o espaçamento para telas menores */
+        padding: 5px; /* Ajusta o espaçamento para telas menores */
     }
 }
 
