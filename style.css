@@ -2,7 +2,7 @@ body {
     background-color: #332C89;
 }
 
-main {
+main { /*Todos os elementos da página devem estar aqui dentro*/
     background-color: red;
     border-radius: 10px; /* Borda da main arredondada */
     min-width: 280px; /* Tamanho mínimo */
@@ -15,17 +15,25 @@ img {
     margin: 2%;
 }
 
-.container {
+.container { /*É a div que está envolvendo as tags da parte superior da tela*/
     display: flex;
     flex-direction: row;
     background-color: #332C89;
 }
 
 p {
-    padding: 15px;
+    padding: 10px; /* Ajuste no padding para reduzir o espaço */
+    margin: 0; /* Remove margens externas */
     font-weight: 700;
     color: white;
     font-size: 1.2rem; /* Tamanho de fonte padrão */
+}
+
+/* Ajuste para títulos, removendo margens */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0; /* Remove margens externas */
+    padding: 10px 0; /* Adiciona um pequeno padding interno */
+    color: white;
 }
 
 @media (max-width: 768px) {
@@ -37,6 +45,10 @@ p {
         font-size: 1rem; /* Reduz o tamanho da fonte para telas menores */
         padding: 2px; /* Ajusta o espaçamento para telas menores */
     }
+
+    h1, h2, h3, h4, h5, h6 {
+        padding: 5px 0; /* Ajuste para telas menores */
+    }
 }
 
 @media (max-width: 480px) {
@@ -47,5 +59,9 @@ p {
     p {
         font-size: 0.9rem; /* Tamanho da fonte ainda menor para telas pequenas */
         padding: 5px; /* Ajuste adicional no padding */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        padding: 3px 0; /* Ajuste ainda menor para telas pequenas */
     }
 }
