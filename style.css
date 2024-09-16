@@ -60,11 +60,11 @@ p {
 
 @media (max-width: 480px) { /* Ajuste para telas ainda menores */
     img {
-        width: 10%; /* Tamanho ainda menor para telas muito pequenas */
+        width: 15%; /* Tamanho ainda menor para telas muito pequenas */
     }
 
     p {
-        font-size: 0.45rem; /* Tamanho da fonte ainda menor para telas pequenas */
+        font-size: 0.6rem; /* Tamanho da fonte ainda menor para telas pequenas */
         padding: 1px; /* Ajuste adicional no padding */
     }
 }
