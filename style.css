@@ -71,3 +71,32 @@ h1, h2, h3, h4, h5, h6 {
         padding: 2px; /* Ajuste adicional no padding */
     }
 }
+
+@media (max-width: 487px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+
+    p {
+        font-size: 0.85rem; 
+        padding: 5px;
+    }
+}
+
+/* Ajuste específico para telas com largura inferior a 145px */
+@media (max-width: 145px) {
+    .container {
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: space-between; /* Espaça os itens igualmente */
+    }
+
+    p {
+        font-size: 0.6rem; /* Reduz o tamanho da fonte para caber na tela */
+        padding: 2px; /* Reduz o padding para economizar espaço */
+    }
+
+    img {
+        width: 10%; /* Reduz o tamanho da imagem para se ajustar à largura da tela */
+    }
+}
