@@ -60,7 +60,7 @@ p {
 
 @media (max-width: 480px) { /* Ajuste para telas ainda menores */
     img {
-        width: 15%; /* Tamanho ainda menor para telas muito pequenas */
+        width: 17%; /* Tamanho ainda menor para telas muito pequenas */
     }
 
     p {
