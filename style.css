@@ -22,7 +22,7 @@ img {
 }
 
 p {
-    padding: 5px; /* Ajuste no padding para reduzir o espaço */
+    padding: 10px; /* Ajuste no padding para reduzir o espaço */
     margin: 0; /* Remove margens externas */
     font-weight: 700;
     color: white;
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
     p {
         font-size: 0.9rem; /* Tamanho da fonte ainda menor para telas pequenas */
-        padding: 5px; /* Ajuste adicional no padding */
+        padding: 2px; /* Ajuste adicional no padding */
     }
 
     h1, h2, h3, h4, h5, h6 {
