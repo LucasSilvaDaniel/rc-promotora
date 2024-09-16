@@ -2,7 +2,7 @@ body {
     background-color: #332C89;
 }
 
-main { /*Todos os elementos da página devem estar aqui dentro*/
+main { /* Todos os elementos da página devem estar aqui dentro */
     background-color: red;
     border-radius: 10px; /* Borda da main arredondada */
     min-width: 280px; /* Tamanho mínimo */
@@ -15,27 +15,29 @@ img {
     margin: 2%;
 }
 
-.container { /*É a div que está envolvendo as tags da parte superior da tela*/
+.container { /* É a div que está envolvendo as tags da parte superior da tela */
     display: flex;
     flex-direction: row;
+    justify-content: space-between; /* Espaçamento igual entre os itens */
     background-color: #332C89;
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
 }
 
 p {
-    padding: 10px; /* Ajuste no padding para reduzir o espaço */
+    padding: 10px; /* Ajuste no padding */
     margin: 0; /* Remove margens externas */
     font-weight: 700;
     color: white;
     font-size: 1.2rem; /* Tamanho de fonte padrão */
 }
 
-/* Ajuste para títulos, removendo margens */
+/* Caso "Quem Somos" e "Dúvidas" sejam títulos, ajuste as margens */
 h1, h2, h3, h4, h5, h6 {
-    margin: 0; /* Remove margens externas */
-    padding: 10px 0; /* Adiciona um pequeno padding interno */
-    color: white;
+    margin: 0; /* Remove margens padrão dos títulos */
+    padding: 5px 0; /* Ajuste no padding para melhor controle do espaço */
 }
 
+/* Estilos específicos para telas menores */
 @media (max-width: 768px) {
     img {
         width: 30%; /* Reduz o tamanho da imagem para telas menores */
@@ -45,23 +47,27 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1rem; /* Reduz o tamanho da fonte para telas menores */
         padding: 2px; /* Ajusta o espaçamento para telas menores */
     }
+}
 
-    h1, h2, h3, h4, h5, h6 {
-        padding: 5px 0; /* Ajuste para telas menores */
+@media (max-width: 487px) { /* Ajuste específico para telas com 487px de largura */
+    .container {
+        flex-direction: column; /* Alinha os itens em coluna */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    p {
+        font-size: 0.9rem; /* Fonte menor para telas pequenas */
+        padding: 5px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) { /* Ajuste para telas ainda menores */
     img {
         width: 20%; /* Tamanho ainda menor para telas muito pequenas */
     }
 
     p {
         font-size: 0.9rem; /* Tamanho da fonte ainda menor para telas pequenas */
-        padding: 2px; /* Ajuste adicional no padding */
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-        padding: 2px 0; /* Ajuste ainda menor para telas pequenas */
+        padding: 5px; /* Ajuste adicional no padding */
     }
 }
