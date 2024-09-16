@@ -31,16 +31,11 @@ p {
     font-size: 1.2rem; /* Tamanho de fonte padrão */
 }
 
-/* Caso "Quem Somos" e "Dúvidas" sejam títulos, ajuste as margens */
-h1, h2, h3, h4, h5, h6 {
-    margin: 0; /* Remove margens padrão dos títulos */
-    padding: 5px 0; /* Ajuste no padding para melhor controle do espaço */
-}
 
 /* Estilos específicos para telas menores */
 @media (max-width: 768px) {
     img {
-        width: 30%; /* Reduz o tamanho da imagem para telas menores */
+        width: 20%; /* Reduz o tamanho da imagem para telas menores */
     }
 
     p {
@@ -63,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 480px) { /* Ajuste para telas ainda menores */
     img {
-        width: 20%; /* Tamanho ainda menor para telas muito pequenas */
+        width: 10%; /* Tamanho ainda menor para telas muito pequenas */
     }
 
     p {
