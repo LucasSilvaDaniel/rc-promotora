@@ -49,14 +49,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media (max-width: 487px) { /* Ajuste específico para telas com 487px de largura */
+@media (max-width: 487px) { /* Ajuste específico para telas com menos de 487px */
     .container {
-        flex-direction: column; /* Alinha os itens em coluna */
-        align-items: center; /* Centraliza os itens */
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
     }
 
     p {
-        font-size: 0.9rem; /* Fonte menor para telas pequenas */
+        font-size: 0.85rem; /* Diminui o tamanho da fonte para caber lado a lado */
         padding: 5px;
     }
 }
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     p {
-        font-size: 0.9rem; /* Tamanho da fonte ainda menor para telas pequenas */
+        font-size: 0.8rem; /* Tamanho da fonte ainda menor para telas pequenas */
         padding: 5px; /* Ajuste adicional no padding */
     }
 }
