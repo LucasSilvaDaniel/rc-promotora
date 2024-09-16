@@ -1,12 +1,7 @@
 body {
-    background-color: #332C89;
-}
-
-main { /* Todos os elementos da página devem estar aqui dentro */
-    background-color: red;
-    border-radius: 10px; /* Borda da main arredondada */
-    min-width: 280px; /* Tamanho mínimo */
-    max-width: 100%; /* Tamanho máximo */
+ margin: 0;
+ min-width: 280px; /* Tamanho mínimo */
+ max-width: 100%; /* Tamanho máximo */  
 }
 
 img {
@@ -18,14 +13,13 @@ img {
 .container { /* É a div que está envolvendo as tags da parte superior da tela */
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* Espaçamento igual entre os itens */
+    align-items: center;
     background-color: #332C89;
     flex-wrap: wrap; /* Permite quebrar linha em telas menores */
 }
 
 p {
     padding: 10px; /* Ajuste no padding */
-    margin: 0; /* Remove margens externas */
     font-weight: 700;
     color: white;
     font-size: 1.2rem; /* Tamanho de fonte padrão */
@@ -34,6 +28,13 @@ p {
 
 /* Estilos específicos para telas menores */
 @media (max-width: 768px) {
+    .container {
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
+        align-items: center;
+    }
+    
+
     img {
         width: 30%; /* Reduz o tamanho da imagem para telas menores */
     }
@@ -50,6 +51,7 @@ p {
     .container {
         flex-direction: row; /* Mantém os itens lado a lado */
         justify-content: space-between; /* Garante que os itens fiquem distribuídos */
+        align-items: center;
     }
 
     p {
@@ -59,6 +61,12 @@ p {
 }
 
 @media (max-width: 480px) { /* Ajuste para telas ainda menores */
+    .container {
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
+        align-items: center;
+    }
+    
     img {
         width: 20%; /* Tamanho ainda menor para telas muito pequenas */
     }
@@ -69,3 +77,8 @@ p {
     }
 }
 
+.faleConosco {
+    background-color: #FFA500;
+    color: black;
+    border-radius: 14px;
+}
