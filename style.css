@@ -35,35 +35,12 @@ p {
 /* Estilos específicos para telas menores */
 @media (max-width: 768px) {
     img {
-        width: 20%; /* Reduz o tamanho da imagem para telas menores */
+        width: 30%; /* Reduz o tamanho da imagem para telas menores */
     }
 
     p {
-        font-size: 1rem; /* Reduz o tamanho da fonte para telas menores */
+        font-size: 0.70rem; /* Reduz o tamanho da fonte para telas menores */
         padding: 2px; /* Ajusta o espaçamento para telas menores */
-    }
-}
-
-@media (max-width: 487px) { /* Ajuste específico para telas com menos de 487px */
-    .container {
-        flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
-    }
-
-    p {
-        font-size: 0.85rem; /* Diminui o tamanho da fonte para caber lado a lado */
-        padding: 5px;
-    }
-}
-
-@media (max-width: 480px) { /* Ajuste para telas ainda menores */
-    img {
-        width: 10%; /* Tamanho ainda menor para telas muito pequenas */
-    }
-
-    p {
-        font-size: 0.7rem; /* Tamanho da fonte ainda menor para telas pequenas */
-        padding: 2px; /* Ajuste adicional no padding */
     }
 }
 
