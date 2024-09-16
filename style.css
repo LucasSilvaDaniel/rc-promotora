@@ -22,7 +22,7 @@ img {
 }
 
 p {
-    padding: 10px; /* Ajuste no padding para reduzir o espaço */
+    padding: 5px; /* Ajuste no padding para reduzir o espaço */
     margin: 0; /* Remove margens externas */
     font-weight: 700;
     color: white;
