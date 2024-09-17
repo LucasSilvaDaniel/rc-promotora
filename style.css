@@ -49,18 +49,7 @@ p {
 
 /*-----------------------------------------------------*/
 
-@media (max-width: 500px) { /* Ajuste específico para telas com menos de 487px */
-    .container {
-        flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
-        align-items: center;
-    }
 
-    p {
-        font-size: 0.85rem; /* Diminui o tamanho da fonte para caber lado a lado */
-        padding: 5px;
-    }
-}
 
 
 @media (max-width: 320px) { /* Ajuste para telas ainda menores */
