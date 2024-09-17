@@ -49,7 +49,7 @@ p {
 
 /*-----------------------------------------------------*/
 
-@media (max-width: 500px) { /* Ajuste específico para telas com menos de 487px */
+@media (max-width: 481px) { /* Ajuste específico para telas com menos de 487px */
     .container {
         flex-direction: row; /* Mantém os itens lado a lado */
         justify-content: space-between; /* Garante que os itens fiquem distribuídos */
