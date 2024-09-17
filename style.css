@@ -62,8 +62,7 @@ p {
     }
 }
 
-
-@media (max-width: 320px) { /* Ajuste para telas ainda menores */
+@media (max-width: 480px) { /* Ajuste para telas ainda menores */
     .container {
         flex-direction: row; /* Mantém os itens lado a lado */
         justify-content: space-between; /* Garante que os itens fiquem distribuídos */
