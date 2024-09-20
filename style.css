@@ -78,8 +78,7 @@ p {
     }
 
     p {
-        font-size: 0.5rem; /* Tamanho da fonte ainda menor para telas pequenas */
-        padding: 1px; /* Ajuste adicional no padding */
+        font-size: 0.3rem; /* Tamanho da fonte ainda menor para telas pequenas */
     }
 }
 
@@ -89,4 +88,3 @@ p {
     border-radius: 14px;
     margin-right: 35px;
 }
-
