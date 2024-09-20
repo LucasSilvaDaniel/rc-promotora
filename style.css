@@ -29,14 +29,13 @@ p {
 
 
 /* Estilos específicos para telas menores */
-@media (max-width: 768px) {
+@media (max-width: 923px) {
     .container {
         flex-direction: row; /* Mantém os itens lado a lado */
         justify-content: space-between; /* Garante que os itens fiquem distribuídos */
         align-items: center;
     }
     
-
     img {
         width: 30%; /* Reduz o tamanho da imagem para telas menores */
     }
@@ -49,25 +48,13 @@ p {
 
 /*-----------------------------------------------------*/
 
-@media (max-width: 481px) { /* Ajuste específico para telas com menos de 487px */
+
+@media (max-width: 550px) { /* Ajuste para telas ainda menores */
     .container {
         flex-direction: row; /* Mantém os itens lado a lado */
         justify-content: space-between; /* Garante que os itens fiquem distribuídos */
         align-items: center;
-    }
-
-    p {
-        font-size: 0.85rem; /* Diminui o tamanho da fonte para caber lado a lado */
-        padding: 5px;
-    }
-}
-
-@media (max-width: 480px) { /* Ajuste para telas ainda menores */
-    .container {
-        flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
-        align-items: center;
-    }
+    } 
     
     img {
         width: 20%; /* Tamanho ainda menor para telas muito pequenas */
@@ -79,7 +66,7 @@ p {
     }
 }
 
-@media (max-width: 325px) { /* Ajuste para telas ainda menores */
+@media (max-width: 333px) { /* Ajuste para telas ainda menores */
     .container {
         flex-direction: row; /* Mantém os itens lado a lado */
         justify-content: space-between; /* Garante que os itens fiquem distribuídos */
