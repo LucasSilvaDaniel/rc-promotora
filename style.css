@@ -16,66 +16,66 @@ img {
     align-items: center;
     background-color: #332C89;
     flex-wrap: wrap; /* Permite quebrar linha em telas menores */
-    justify-content: space-between;
+    justify-content: space-between; /* Garante que os itens fiquem distribuídos */
 }
 
 p {
     padding: 10px; /* Ajuste no padding */
     font-weight: 700;
     color: white;
-    font-size: 1.5rem; /* Ajuste da fonte para mobile */
+    font-size: 1.2rem; /* Tamanho de fonte ajustado para melhor legibilidade */
 }
 
 /* Estilos específicos para telas menores */
 @media (max-width: 923px) {
     .container {
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
         align-items: center;
     }
     
     img {
-        width: 30%;
+        width: 25%; /* Reduz o tamanho da imagem para telas menores */
     }
 
     p {
-        font-size: 1.2rem; /* Mantém o texto visível em tamanhos médios */
-        padding: 8px;
+        font-size: 1rem; /* Reduz o tamanho da fonte para telas menores */
+        padding: 5px; /* Ajuste no espaçamento */
     }
 }
 
 /* Ajuste para telas menores ainda */
 @media (max-width: 550px) {
     .container {
-        flex-direction: row;
+        flex-direction: row; /* Mantém os itens lado a lado */
         justify-content: space-between;
         align-items: center;
     }
     
     img {
-        width: 25%;
+        width: 20%; /* Reduz a imagem um pouco mais */
     }
 
     p {
-        font-size: 1rem; /* Mantém o tamanho da fonte legível */
-        padding: 5px;
+        font-size: 0.9rem; /* Ajusta o texto para telas pequenas */
+        padding: 3px;
     }
 }
 
 @media (max-width: 333px) {
     .container {
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: space-between;
         align-items: center;
     }
     
     img {
-        width: 18%;
+        width: 18%; /* Mantém a imagem pequena */
     }
 
     p {
-        font-size: 0.9rem;
-        padding: 3px;
+        font-size: 0.7rem; /* Reduz ainda mais o tamanho da fonte para telas pequenas */
+        padding: 1px;
     }
 }
 
@@ -83,7 +83,7 @@ p {
     background-color: #FFA500;
     color: black;
     border-radius: 14px;
-    margin-right: 20px;
-    padding: 10px 20px; /* Adicionando padding para melhorar a aparência do botão */
-    font-size: 1rem; /* Ajuste do tamanho da fonte do botão */
+    margin-right: 35px;
+    padding: 8px 15px; /* Tamanho adequado do botão */
+    font-size: 0.9rem; /* Ajuste para que o botão também se adapte */
 }
