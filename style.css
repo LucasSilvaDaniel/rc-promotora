@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    min-width: 280px; /* Tamanho mínimo */
-    max-width: 100%; /* Tamanho máximo */
+ margin: 0;
+ min-width: 280px; /* Tamanho mínimo */
+ max-width: 100%; /* Tamanho máximo */  
 }
 
 img {
@@ -10,21 +10,23 @@ img {
     margin: 2%;
 }
 
-.container {
+.container { /* É a div que está envolvendo as tags da parte superior da tela */
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #332C89;
     flex-wrap: wrap; /* Permite quebrar linha em telas menores */
     justify-content: space-between; /* Garante que os itens fiquem distribuídos */
+
 }
 
 p {
     padding: 10px; /* Ajuste no padding */
     font-weight: 700;
     color: white;
-    font-size: 1.2rem; /* Tamanho de fonte ajustado para melhor legibilidade */
+    font-size: 27px;
 }
+
 
 /* Estilos específicos para telas menores */
 @media (max-width: 923px) {
@@ -35,47 +37,49 @@ p {
     }
     
     img {
-        width: 25%; /* Reduz o tamanho da imagem para telas menores */
+        width: 30%; /* Reduz o tamanho da imagem para telas menores */
     }
 
     p {
-        font-size: 1rem; /* Reduz o tamanho da fonte para telas menores */
-        padding: 5px; /* Ajuste no espaçamento */
+        font-size: 0.70rem; /* Reduz o tamanho da fonte para telas menores */
+        padding: 2px; /* Ajusta o espaçamento para telas menores */
     }
 }
 
-/* Ajuste para telas menores ainda */
-@media (max-width: 550px) {
+/*-----------------------------------------------------*/
+
+
+@media (max-width: 550px) { /* Ajuste para telas ainda menores */
     .container {
         flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: space-between;
+        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
+        align-items: center;
+    } 
+    
+    img {
+        width: 20%; /* Tamanho ainda menor para telas muito pequenas */
+    }
+
+    p {
+        font-size: 0.6rem; /* Tamanho da fonte ainda menor para telas pequenas */
+        padding: 1px; /* Ajuste adicional no padding */
+    }
+}
+
+@media (max-width: 333px) { /* Ajuste para telas ainda menores */
+    .container {
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
         align-items: center;
     }
     
     img {
-        width: 20%; /* Reduz a imagem um pouco mais */
+        width: 18%; /* Tamanho ainda menor para telas muito pequenas */
     }
 
     p {
-        font-size: 0.9rem; /* Ajusta o texto para telas pequenas */
-        padding: 3px;
-    }
-}
-
-@media (max-width: 333px) {
-    .container {
-        flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    img {
-        width: 18%; /* Mantém a imagem pequena */
-    }
-
-    p {
-        font-size: 0.7rem; /* Reduz ainda mais o tamanho da fonte para telas pequenas */
-        padding: 1px;
+        font-size: 0.5rem; /* Tamanho da fonte ainda menor para telas pequenas */
+        padding: 1px; /* Ajuste adicional no padding */
     }
 }
 
@@ -84,6 +88,5 @@ p {
     color: black;
     border-radius: 14px;
     margin-right: 35px;
-    padding: 8px 15px; /* Tamanho adequado do botão */
-    font-size: 0.9rem; /* Ajuste para que o botão também se adapte */
 }
+
