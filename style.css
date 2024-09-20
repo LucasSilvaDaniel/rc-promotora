@@ -61,9 +61,14 @@ p {
     }
 
     p {
-        font-size: 0.6rem; /* Tamanho da fonte ainda menor para telas pequenas */
-        padding: 1px; /* Ajuste adicional no padding */
+        font-size: 0.4rem; /* Tamanho da fonte ainda menor para telas pequenas */
     }
+    
+.faleConosco {
+    background-color: #FFA500;
+    color: black;
+    border-radius: 14px;
+}
 }
 
 @media (max-width: 333px) { /* Ajuste para telas ainda menores */
@@ -78,7 +83,8 @@ p {
     }
 
     p {
-        font-size: 0.3rem; /* Tamanho da fonte ainda menor para telas pequenas */
+        font-size: 0.5rem; /* Tamanho da fonte ainda menor para telas pequenas */
+        padding: 1px; /* Ajuste adicional no padding */
     }
 }
 
