@@ -26,46 +26,6 @@ p {
     font-size: 27px;
 }
 
-/* Responsividade */
-@media (max-width: 923px) {
-    img {
-        width: 30%;
-    }
-
-    p {
-        font-size: 0.7rem;
-        padding: 2px;
-    }
-}
-
-@media (max-width: 550px) {
-    img {
-        width: 20%;
-    }
-
-    p {
-        font-size: 0.6rem;
-    }
-
-    .faleConosco {
-        background-color: #FFA500;
-        color: black;
-        border-radius: 14px;
-    }
-}
-
-@media (max-width: 333px) {
-    img {
-        width: 18%;
-    }
-
-    p {
-        font-size: 0.5rem;
-        padding: 1px;
-    }
-}
-
-/* Estilo da classe faleConosco */
 .faleConosco {
     background-color: #FFA500;
     color: black;
@@ -91,6 +51,7 @@ p {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
@@ -100,7 +61,8 @@ p {
     margin: 10px;
 }
 
-.imgBradesco, .imgSantander {
+.imgBradesco,
+.imgSantander {
     width: 230px;
 }
 
@@ -112,7 +74,8 @@ p {
     width: 160px;
 }
 
-.imgBrasil, .imgMaster {
+.imgBrasil,
+.imgMaster {
     width: 150px;
 }
 
@@ -120,7 +83,10 @@ p {
     width: 140px;
 }
 
-.imgCaixa, .imgCapitalConsig, .imgNeoCredito, .imgSaninvest  {
+.imgCaixa,
+.imgCapitalConsig,
+.imgNeoCredito,
+.imgSaninvest {
     width: 130px;
 }
 
@@ -128,10 +94,208 @@ p {
     width: 120px;
 }
 
-.imgPan, .imgBRG, .imgBanrisul, .imgDigio, .imgInsurba {
+.imgPan,
+.imgBRG,
+.imgBanrisul,
+.imgDigio,
+.imgInsurba {
     width: 100px;
 }
 
 .imgItau {
     width: 90px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 923px) {
+    .logoPromotora {
+        width: 30%;
+    }
+
+    p {
+        font-size: 0.7rem;
+        padding: 2px;
+    }
+
+    .imgBradesco,
+    .imgSantander {
+        width: 10rem;
+    }
+
+    .imgDaycoval {
+        width: 7rem;
+    }
+
+    .imgBMG {
+        width: 6rem;
+    }
+
+    .imgMaster {
+        width: 7rem;
+    }
+
+    .imgBrasil {
+        width: 6rem;
+    }
+
+    .imgSafra {
+        width: 7rem;
+    }
+
+    .imgCaixa,
+    .imgCapitalConsig,
+    .imgNeoCredito,
+    .imgSaninvest {
+        width: 6rem;
+    }
+
+    .imgFacta {
+        width: 6rem;
+    }
+
+    .imgPan,
+    .imgBRG,
+    .imgDigio,
+    .imgInsurba {
+        width: 6rem;
+    }
+
+    .imgBanrisul {
+        width: 5rem;
+    }
+
+    .imgItau {
+        width: 4.5rem;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 550px) {
+    .logoPromotora {
+        width: 20%;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    .imgBradesco,
+    .imgSantander {
+        width: 9rem;
+    }
+
+    .imgDaycoval {
+        width: 7rem;
+    }
+
+    .imgBMG {
+        width: 5rem;
+    }
+
+    .imgMaster {
+        width: 6rem;
+    }
+
+    .imgBrasil {
+        width: 5rem;
+    }
+
+    .imgSafra {
+        width: 6rem;
+    }
+
+    .imgCaixa,
+    .imgCapitalConsig,
+    .imgNeoCredito,
+    .imgSaninvest {
+        width: 5rem;
+    }
+
+    .imgFacta {
+        width: 6rem;
+    }
+
+    .imgPan,
+    .imgBRG,
+    .imgDigio,
+    .imgInsurba {
+        width: 5rem;
+    }
+
+    .imgBanrisul {
+        width: 4rem;
+    }
+
+    .imgItau {
+        width: 4rem;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 333px) {
+    .logoPromotora {
+        width: 18%;
+    }
+
+    p {
+        font-size: 0.5rem;
+        padding: 1px;
+    }
+
+
+    .imgBradesco,
+    .imgSantander {
+        width: 8rem;
+    }
+
+    .imgDaycoval {
+        width: 6rem;
+    }
+
+    .imgBMG {
+        width: 4rem;
+    }
+
+    .imgMaster {
+        width: 5rem;
+    }
+
+    .imgBrasil {
+        width: 4rem;
+    }
+
+    .imgSafra {
+        width: 5rem;
+    }
+
+    .imgCaixa,
+    .imgCapitalConsig,
+    .imgNeoCredito,
+    .imgSaninvest {
+        width: 4rem;
+    }
+
+    .imgFacta {
+        width: 5rem;
+    }
+
+    .imgPan,
+    .imgBRG,
+    .imgDigio,
+    .imgInsurba {
+        width: 4rem;
+    }
+
+    .imgBanrisul {
+        width: 3rem;
+    }
+
+    .imgItau {
+        width: 3rem;
+    }
 }
