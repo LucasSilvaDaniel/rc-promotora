@@ -1,96 +1,137 @@
 body {
- margin: 0;
- min-width: 280px; /* Tamanho mínimo */
- max-width: 100%; /* Tamanho máximo */  
+    margin: 0;
+    min-width: 280px;
+    max-width: 100%;
 }
 
 img {
-    width: 20%; /* Tamanho da imagem */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 20%;
+    height: auto;
     margin: 2%;
 }
 
-.container { /* É a div que está envolvendo as tags da parte superior da tela */
+.container {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #332C89;
-    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
-    justify-content: space-between; /* Garante que os itens fiquem distribuídos */
-
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 p {
-    padding: 10px; /* Ajuste no padding */
+    padding: 10px;
     font-weight: 700;
     color: white;
     font-size: 27px;
 }
 
-
-/* Estilos específicos para telas menores */
+/* Responsividade */
 @media (max-width: 923px) {
-    .container {
-        flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
-        align-items: center;
-    }
-    
     img {
-        width: 30%; /* Reduz o tamanho da imagem para telas menores */
+        width: 30%;
     }
 
     p {
-        font-size: 0.70rem; /* Reduz o tamanho da fonte para telas menores */
-        padding: 2px; /* Ajusta o espaçamento para telas menores */
+        font-size: 0.7rem;
+        padding: 2px;
     }
 }
 
-/*-----------------------------------------------------*/
-
-
-@media (max-width: 550px) { /* Tela Iphone e Sansung */
-    .container {
-        flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
-        align-items: center;
-    } 
-    
+@media (max-width: 550px) {
     img {
-        width: 20%; /* Tamanho ainda menor para telas muito pequenas */
+        width: 20%;
     }
 
     p {
-        font-size: 0.6rem; /* Tamanho da fonte ainda menor para telas pequenas */
+        font-size: 0.6rem;
     }
-    
-.faleConosco {
-    background-color: #FFA500;
-    color: black;
-    border-radius: 14px;
-}
+
+    .faleConosco {
+        background-color: #FFA500;
+        color: black;
+        border-radius: 14px;
+    }
 }
 
-@media (max-width: 333px) { /* Ajuste para telas ainda menores */
-    .container {
-        flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: space-between; /* Garante que os itens fiquem distribuídos */
-        align-items: center;
-    }
-    
+@media (max-width: 333px) {
     img {
-        width: 18%; /* Tamanho ainda menor para telas muito pequenas */
+        width: 18%;
     }
 
     p {
-        font-size: 0.5rem; /* Tamanho da fonte ainda menor para telas pequenas */
-        padding: 1px; /* Ajuste adicional no padding */
+        font-size: 0.5rem;
+        padding: 1px;
     }
 }
 
+/* Estilo da classe faleConosco */
 .faleConosco {
     background-color: #FFA500;
     color: black;
     border-radius: 14px;
     margin-right: 35px;
+}
+
+/* Animação de rolagem contínua */
+.container-slide {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.paginas-slide {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    animation: anima 30s linear infinite;
+}
+
+@keyframes anima {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.paginas-slide img {
+    margin: 10px;
+}
+
+.imgBradesco, .imgSantander {
+    width: 230px;
+}
+
+.imgDaycoval {
+    width: 220px;
+}
+
+.imgBMG {
+    width: 160px;
+}
+
+.imgBrasil, .imgMaster {
+    width: 150px;
+}
+
+.imgSafra {
+    width: 140px;
+}
+
+.imgCaixa, .imgCapitalConsig, .imgNeoCredito, .imgSaninvest  {
+    width: 130px;
+}
+
+.imgFacta {
+    width: 120px;
+}
+
+.imgPan, .imgBRG, .imgBanrisul, .imgDigio, .imgInsurba {
+    width: 100px;
+}
+
+.imgItau {
+    width: 90px;
 }
