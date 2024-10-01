@@ -2,9 +2,10 @@ body {
     margin: 0;
     min-width: 280px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
-img {
+.logoPromotora {
     width: 20%;
     height: auto;
     margin: 2%;
@@ -20,17 +21,49 @@ img {
 }
 
 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
     padding: 10px;
     font-weight: 700;
     color: white;
     font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.servicos {
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quemSomos {
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.duvidas {
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .faleConosco {
     background-color: #FFA500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
     color: black;
     border-radius: 14px;
-    margin-right: 35px;
+    padding: 14px;
+    text-decoration: none;
 }
 
 /* Animação de rolagem contínua */
@@ -58,12 +91,13 @@ p {
 }
 
 .paginas-slide img {
-    margin: 10px;
+    margin: 20px;
 }
 
 .imgBradesco,
 .imgSantander {
     width: 230px;
+    padding-left: 5px;
 }
 
 .imgDaycoval {
@@ -107,13 +141,70 @@ p {
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
+.atendimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.imgAtendimento {
+    border-radius: 40px;
+    width: 40%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.escritaAtendimento {
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.descricaoAtendimento {
+    color: black;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.aBaixo {
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.faleConoscoAtendimento {
+    background-color: #FFA500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    border-radius: 14px;
+    padding: 20px 14px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 923px) {
     .logoPromotora {
         width: 30%;
     }
 
-    p {
+    .home,
+    .servicos,
+    .quemSomos,
+    .duvidas,
+    .faleConosco {
         font-size: 0.7rem;
         padding: 2px;
     }
@@ -123,22 +214,8 @@ p {
         width: 10rem;
     }
 
-    .imgDaycoval {
-        width: 7rem;
-    }
-
-    .imgBMG {
-        width: 6rem;
-    }
-
-    .imgMaster {
-        width: 7rem;
-    }
-
-    .imgBrasil {
-        width: 6rem;
-    }
-
+    .imgDaycoval,
+    .imgMaster,
     .imgSafra {
         width: 7rem;
     }
@@ -146,14 +223,10 @@ p {
     .imgCaixa,
     .imgCapitalConsig,
     .imgNeoCredito,
-    .imgSaninvest {
-        width: 6rem;
-    }
-
-    .imgFacta {
-        width: 6rem;
-    }
-
+    .imgSaninvest,
+    .imgBMG,
+    .imgBrasil,
+    .imgFacta,
     .imgPan,
     .imgBRG,
     .imgDigio,
@@ -169,6 +242,10 @@ p {
         width: 4.5rem;
     }
 
+    .paginas-slide img {
+        margin: 20px;
+    }
+
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
@@ -178,7 +255,11 @@ p {
         width: 20%;
     }
 
-    p {
+    .home,
+    .servicos,
+    .quemSomos,
+    .duvidas,
+    .faleConosco {
         font-size: 0.6rem;
     }
 
@@ -191,33 +272,18 @@ p {
         width: 7rem;
     }
 
-    .imgBMG {
-        width: 5rem;
-    }
-
-    .imgMaster {
-        width: 6rem;
-    }
-
-    .imgBrasil {
-        width: 5rem;
-    }
-
-    .imgSafra {
-        width: 6rem;
-    }
-
-    .imgCaixa,
-    .imgCapitalConsig,
-    .imgNeoCredito,
-    .imgSaninvest {
-        width: 5rem;
-    }
-
+    .imgMaster,
+    .imgSafra,
     .imgFacta {
         width: 6rem;
     }
 
+    .imgBMG,
+    .imgBrasil,
+    .imgCaixa,
+    .imgCapitalConsig,
+    .imgNeoCredito,
+    .imgSaninvest,
     .imgPan,
     .imgBRG,
     .imgDigio,
@@ -225,28 +291,31 @@ p {
         width: 5rem;
     }
 
-    .imgBanrisul {
-        width: 4rem;
-    }
-
+    .imgBanrisul,
     .imgItau {
         width: 4rem;
     }
 
+    .paginas-slide img {
+        margin: 20px;
+    }
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 333px) {
+@media (max-width: 345px) {
     .logoPromotora {
         width: 18%;
     }
 
-    p {
+    .home,
+    .servicos,
+    .quemSomos,
+    .duvidas,
+    .faleConosco {
         font-size: 0.5rem;
         padding: 1px;
     }
-
 
     .imgBradesco,
     .imgSantander {
@@ -257,33 +326,18 @@ p {
         width: 6rem;
     }
 
-    .imgBMG {
-        width: 4rem;
-    }
-
-    .imgMaster {
-        width: 5rem;
-    }
-
-    .imgBrasil {
-        width: 4rem;
-    }
-
-    .imgSafra {
-        width: 5rem;
-    }
-
-    .imgCaixa,
-    .imgCapitalConsig,
-    .imgNeoCredito,
-    .imgSaninvest {
-        width: 4rem;
-    }
-
+    .imgMaster,
+    .imgSafra,
     .imgFacta {
         width: 5rem;
     }
 
+    .imgBMG,
+    .imgCaixa,
+    .imgCapitalConsig,
+    .imgNeoCredito,
+    .imgSaninvest,
+    .imgBrasil,
     .imgPan,
     .imgBRG,
     .imgDigio,
@@ -291,11 +345,12 @@ p {
         width: 4rem;
     }
 
-    .imgBanrisul {
+    .imgBanrisul,
+    .imgItau {
         width: 3rem;
     }
 
-    .imgItau {
-        width: 3rem;
+    .paginas-slide img {
+        margin: 20px;
     }
 }
