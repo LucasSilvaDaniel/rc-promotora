@@ -433,8 +433,8 @@ p {
     }
 
     .descricaoAtendimento {
-        font-size: 0.7rem;
-        line-height: 1.2;
+        font-size: 0.4rem;
+        line-height: 1.0;
         white-space: normal;
         word-wrap: break-word;
     }
