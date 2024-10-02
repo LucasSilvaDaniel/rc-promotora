@@ -167,9 +167,6 @@ p {
     color: black;
     font-weight: 800;
     font-size: 1.5rem;
-    white-space: normal; /* Quebra de linha automática */
-    line-height: 1.5; /* Espaçamento entre as linhas */
-    text-align: justify; /* Para um alinhamento mais agradável */
 }
 
 .faleConoscoAtendimento {
@@ -254,9 +251,6 @@ p {
         color: black;
         font-weight: 800;
         font-size: 1rem;
-        white-space: normal; /* Quebra de linha automática */
-    line-height: 1.5; /* Espaçamento entre as linhas */
-    text-align: justify; /* Para um alinhamento mais agradável */
     }
 
     .faleConoscoAtendimento {
@@ -346,9 +340,6 @@ p {
         color: black;
         font-weight: 800;
         font-size: 0.7rem;
-        white-space: normal; /* Quebra de linha automática */
-    line-height: 1.5; /* Espaçamento entre as linhas */
-    text-align: justify; /* Para um alinhamento mais agradável */
     }
 
     .faleConoscoAtendimento {
@@ -438,9 +429,6 @@ p {
         color: black;
         font-weight: 800;
         font-size: 0.4rem;
-        white-space: normal; /* Quebra de linha automática */
-    line-height: 1.5; /* Espaçamento entre as linhas */
-    text-align: justify; /* Para um alinhamento mais agradável */
     }
 
     .faleConoscoAtendimento {
