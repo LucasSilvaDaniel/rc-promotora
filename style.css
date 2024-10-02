@@ -339,12 +339,12 @@ p {
     .escritaAtendimento {
         color: black;
         font-weight: 900;
-        font-size: 1.0rem;
+        font-size: 1.1rem;
     }
 
     .descricaoAtendimento {
-        font-size: 1rem;
-        line-height: 1.4;
+        font-size: 0.7rem;
+        line-height: 1.0;
         white-space: normal;
         word-wrap: break-word;
     }
