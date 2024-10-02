@@ -167,6 +167,9 @@ p {
     color: black;
     font-weight: 800;
     font-size: 1.5rem;
+    white-space: normal; /* Permite a quebra de linha normal */
+    word-wrap: break-word; /* Força a quebra de palavra se for muito longa */
+    line-height: 1.5; /* Melhor espaçamento entre as linhas */
 }
 
 .faleConoscoAtendimento {
@@ -250,7 +253,10 @@ p {
     .descricaoAtendimento {
         color: black;
         font-weight: 800;
-        font-size: 1rem;
+        font-size: 1.5rem;
+        white-space: normal; /* Permite a quebra de linha normal */
+        word-wrap: break-word; /* Força a quebra de palavra se for muito longa */
+        line-height: 1.5; /* Melhor espaçamento entre as linhas */
     }
 
     .faleConoscoAtendimento {
@@ -337,9 +343,10 @@ p {
     }
 
     .descricaoAtendimento {
-        color: black;
-        font-weight: 800;
-        font-size: 0.7rem;
+        font-size: 1rem;
+        line-height: 1.4;
+        white-space: normal;
+        word-wrap: break-word;
     }
 
     .faleConoscoAtendimento {
