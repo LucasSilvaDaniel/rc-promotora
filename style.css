@@ -144,7 +144,7 @@ p {
 .atendimento {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Centraliza os itens horizontalmente */
+    justify-content: space-between;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -188,7 +188,8 @@ p {
     width: 42%;
     height: 500px;
     object-fit: cover;
-    margin: 0 auto; /* Centraliza a imagem */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
@@ -271,7 +272,8 @@ p {
         width: 30%;
         height: 250px;
         object-fit: cover;
-        margin: 0 auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
@@ -359,7 +361,8 @@ p {
         width: 35%;
         height: 180px;
         object-fit: cover;
-        margin: 0 auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -444,9 +447,9 @@ p {
 
     .imgAtendimento {
         border-radius: 30px;
-        width: 30%;
-        height: 120px;
+        width: 40%;
+        height: 140px;
         object-fit: cover;
-        margin: 0 auto;
+       
     }
 }
