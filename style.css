@@ -433,9 +433,10 @@ p {
     }
 
     .descricaoAtendimento {
-        color: black;
-        font-weight: 800;
-        font-size: 0.4rem;
+        font-size: 0.7rem;
+        line-height: 1.2;
+        white-space: normal;
+        word-wrap: break-word;
     }
 
     .faleConoscoAtendimento {
