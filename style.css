@@ -167,8 +167,9 @@ p {
     color: black;
     font-weight: 800;
     font-size: 1.5rem;
-    word-wrap: break-word; /* Permite que palavras longas quebrem */
-    word-break: break-word; /* Garante a quebra da linha em palavras longas */
+    white-space: normal; /* Quebra de linha automática */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    text-align: justify; /* Para um alinhamento mais agradável */
 }
 
 .faleConoscoAtendimento {
@@ -253,8 +254,9 @@ p {
         color: black;
         font-weight: 800;
         font-size: 1rem;
-        word-wrap: break-word; /* Permite que palavras longas quebrem */
-    word-break: break-word; /* Garante a quebra da linha em palavras longas */
+        white-space: normal; /* Quebra de linha automática */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    text-align: justify; /* Para um alinhamento mais agradável */
     }
 
     .faleConoscoAtendimento {
@@ -344,8 +346,9 @@ p {
         color: black;
         font-weight: 800;
         font-size: 0.7rem;
-        word-wrap: break-word; /* Permite que palavras longas quebrem */
-    word-break: break-word; /* Garante a quebra da linha em palavras longas */
+        white-space: normal; /* Quebra de linha automática */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    text-align: justify; /* Para um alinhamento mais agradável */
     }
 
     .faleConoscoAtendimento {
@@ -435,8 +438,9 @@ p {
         color: black;
         font-weight: 800;
         font-size: 0.4rem;
-        word-wrap: break-word; /* Permite que palavras longas quebrem */
-    word-break: break-word; /* Garante a quebra da linha em palavras longas */
+        white-space: normal; /* Quebra de linha automática */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    text-align: justify; /* Para um alinhamento mais agradável */
     }
 
     .faleConoscoAtendimento {
